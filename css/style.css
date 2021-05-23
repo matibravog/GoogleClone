@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+}
+
+.nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-right-section a{
+    margin: 10px;
+    cursor: pointer;
+}
+.menu-icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.nav-right-section img{
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+}
+
+main{
+    margin: 150px;
+    text-align: center;
+}
+
+.logo-google img{
+    margin: 0 auto;
+    height: 92px;
+    width: 272px;
+    margin-bottom: 10px;
+}
+.buscador{
+    width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.buscador-container{
+    width: 52.5rem;
+    height: 4rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: .45;
+    cursor: pointer;
+}
+.search-bar{
+    position: relative;
+    left: 10px;
+    width: 45rem;
+    height: 3.8rem;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.buscador-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.micro-icon{
+    z-index: 1;
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.botones{
+    width: 53rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.botones button{
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin: 0 1.5rem;
+    outline: none;
+}
+
+.botones button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 6px 0 #20212447;
+    color: #222;
+}
+footer{
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    display: flex;
+    padding-left: 0;
+}
+.footer-left{
+    justify-self: left;
+}
+.footer-right{
+    justify-self: right;
+}
+footer a{
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #5f6368;
+}
